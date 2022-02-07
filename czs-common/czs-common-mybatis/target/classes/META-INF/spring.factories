@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.czscloud.czs.common.mybaits.MybatisAutoConfiguration

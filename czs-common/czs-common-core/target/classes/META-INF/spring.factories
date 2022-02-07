@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.czscloud.czs.common.core.config.JacksonConfiguration,\
+  com.czscloud.czs.common.core.config.RedisTemplateConfiguration,\
+  com.czscloud.czs.common.core.config.RestTemplateConfiguration,\
+  com.czscloud.czs.common.core.util.SpringContextHolder,\
+  com.czscloud.czs.common.core.config.WebMvcConfiguration
