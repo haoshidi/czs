@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.czscloud.czs.common.feign.MyFeignAutoConfiguration,\
+    com.czscloud.czs.common.feign.sentinel.SentinelAutoConfiguration,\
+    com.czscloud.czs.common.feign.sentinel.handle.GlobalBizExceptionHandler

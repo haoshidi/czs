@@ -1,0 +1,4 @@
+2022-02-09 02:50:18,442 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] Version.java:21 - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-09 02:50:22,564 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[application-dev.yml] & group[DEFAULT_GROUP]
+2022-02-09 02:50:25,588 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[czs-auth] & group[DEFAULT_GROUP]
+2022-02-09 02:50:28,603 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[czs-auth.yml] & group[DEFAULT_GROUP]

@@ -8,12 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="czs-common-core" />
+        <module name="czs-common-security" />
         <module name="czs-common-mybatis" />
+        <module name="czs-auth" />
+        <module name="czs-common-log" />
+        <module name="czs-upms-api" />
         <module name="czs-gateway" />
+        <module name="czs-common-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="czs-nacos" target="1.8" />
+      <module name="czs-upms-biz" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

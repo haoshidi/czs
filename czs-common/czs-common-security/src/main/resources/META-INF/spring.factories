@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.czscloud.czs.common.security.service.MyUserDetailsServiceImpl,\
+  com.czscloud.czs.common.security.service.MyAppUserDetailsServiceImpl,\
+  com.czscloud.czs.common.security.component.MySecurityInnerAspect,\
+  com.czscloud.czs.common.security.component.MyTokenStoreAutoConfiguration,\
+  com.czscloud.czs.common.security.component.MyTokenStoreAutoCleanSchedule,\
+  com.czscloud.czs.common.security.component.MySecurityMessageSourceConfiguration
+

@@ -13,6 +13,8 @@
         <log4j2.version>2.17.1</log4j2.version>
         <mybatis-plus.version>3.5.0</mybatis-plus.version>
         <spring-boot.version>2.6.2</spring-boot.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -20,6 +22,11 @@
                 <groupId>com.czscloud</groupId>
                 <artifactId>czs-common-core</artifactId>
                 <version>${czs-common-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.czscloud</groupId>
+                <artifactId>czs-common-log</artifactId>
+                <version>${czs.common.version}</version>
             </dependency>
             <!--orm 相关-->
             <dependency>
@@ -52,6 +59,12 @@
                 <version>${log4j2.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <!--mybatis-plus-->
+            <dependency>
+                <groupId>com.pig4cloud.plugin</groupId>
+                <artifactId>oss-spring-boot-starter</artifactId>
+                <version>${oss.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

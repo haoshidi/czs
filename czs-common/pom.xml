@@ -15,6 +15,9 @@
         <module>czs-common-bom</module>
         <module>czs-common-core</module>
         <module>czs-common-mybatis</module>
+        <module>czs-common-log</module>
+        <module>czs-common-feign</module>
+        <module>czs-common-security</module>
     </modules>
 
 </project>

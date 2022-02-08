@@ -1,0 +1,6 @@
+com.pig4cloud.pig.common.feign.PigFeignAutoConfiguration=\
+  com.czscloud.czs.upms.admin.api.feign.RemoteDictService,\
+  com.czscloud.czs.upms.admin.api.feign.RemoteDeptService,\
+  com.czscloud.czs.upms.admin.api.feign.RemoteLogService,\
+  com.czscloud.czs.upms.admin.api.feign.RemoteTokenService,\
+  com.czscloud.czs.upms.admin.api.feign.RemoteUserService
